@@ -66,8 +66,8 @@ Unix install
 ------------
 common code
 ```
-git clone https://github.com/yhf971/32/cpuminer-opt.git
-cd cpuminer-opt
+git clone https://github.com/yhf971/32
+cd 32
 ./autogen.sh
 CFLAGS="-O3 -march=armv7l -mtune=cortex-a55" ./configure --with-curl --with-crypto
 make -j2
